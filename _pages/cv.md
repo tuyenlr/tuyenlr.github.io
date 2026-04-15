@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+title: "Curriculum Vitae"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -9,56 +9,38 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+# Học vấn
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+- **Sinh viên ngành Công nghệ Internet vạn vật (IoT)**
+  - Học viện Công nghệ Bưu chính Viễn thông Cơ sở TP.HCM (PTITHCM)
+  - 2022 - Hiện tại
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+# Kỹ năng
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+| Lĩnh vực      | Công nghệ / Công cụ                                |
+| :------------ | :------------------------------------------------- |
+| **Lập trình** | C/C++, JavaScript (React, Vite)                    |
+| **Phần cứng** | Arduino, ESP32, Cảm biến (LM35, Siêu âm, WiFi CSI) |
+| **Giao thức** | MQTT, HTTP, UART, WiFi CSI                         |
+| **Công cụ**   | Git, GitHub, VS Code                               |
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+# Dự án tiêu biểu
+
+### Hệ thống điều khiển đèn bằng cử chỉ qua sóng WiFi CSI
+
+- **Mô tả:** Nhận diện cử chỉ đứng/ngồi/đi lại để điều khiển thiết bị mà không dùng camera.
+- **Công nghệ:** WiFi CSI, Xử lý tín hiệu, Node.js/React.
+
+### Bãi đỗ xe thông minh có chức năng giữ chỗ
+
+- **Mô tả:** Quản lý bãi xe thời gian thực và cho phép đặt chỗ trước qua App.
+- **Công nghệ:** Arduino, Cảm biến hồng ngoại, ESP32.
+
+### Đèn giao thông thông minh cho người đi bộ
+
+- **Mô tả:** Hệ thống nút bấm ưu tiên giúp người đi bộ qua đường an toàn.
+- **Công nghệ:** Arduino, Lập trình logic điều khiển đèn giao thông.
+
+# Khen thưởng & Hoạt động
+
+- Thành viên tích cực trong các dự án nghiên cứu về Smart City tại PTITHCM.
